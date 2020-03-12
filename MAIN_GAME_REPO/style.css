@@ -1,0 +1,32 @@
+
+.Main_box{
+  display:flex;
+  justify-content: center;
+}
+#crt_pic{
+  height:100vh;
+}
+body{
+  background-image: url(bg22.png);
+  background-size: contain;
+}
+.colorfade{
+
+  width: 40vw;
+  height: 80vh;
+  position: absolute;
+  background: rgb(129,132,133);
+background: linear-gradient(0deg, rgba(129,132,133,1) 0%, rgba(255,255,255,1) 50%, rgba(129,132,133,1) 100%);
+}
+.crt_pic{
+  z-index: 1;
+}
+h1{
+  text-align: center;
+  font-size: 2.8em;
+  text-decoration: underline;
+}
+p{
+  text-align: center;
+  font-size: 1.5em;
+}
