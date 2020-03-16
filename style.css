@@ -1,0 +1,158 @@
+@font-face {
+  src: url(gaming_font.ttf);
+  font-family:gaming_font;
+}
+
+
+.Main_box{
+display:flex;
+justify-content: center;
+}
+#crt_pic{
+height:95vh;
+}
+
+.body1{
+background-image: url(B17.jpg);
+background-size: contain;
+}
+#bg_start{
+width: 40vw;
+height: 80vh;
+position: absolute;
+background: black;
+z-index: -1;
+}
+
+.crt_pic{
+z-index: 0;
+}
+
+h1{
+text-align: center;
+font-size: 3.0em;
+text-decoration: underline;
+}
+
+.game_box{
+text-align: center;
+font-size: 1.7em;
+}
+
+.mmxbanner{
+display: flex;
+justify-content: center;
+}
+
+.crt_pic .btn{
+position: absolute;
+z-index: 4;
+top: 82.5vh;
+left: 67.7vw;
+font-size: 16px;
+padding: 9px 14.5px;
+
+cursor: pointer;
+text-align: center;
+background-color: grey;
+}
+
+.crt_pic .power_gif{
+position: absolute;
+top: 76vh;
+left: 65.2vw;
+}
+
+.power_gif{
+z-index: 3;
+}
+
+.mmxTXT{
+flex-flow:
+}
+
+.controller-container {
+  position: absolute;
+  display: inline-block;
+  margin-top: 30vh;
+  width: 20vw;
+
+
+}
+
+#controller-btn{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background:purple;
+  margin-left: 22vw;
+  top: 14vh;
+  visibility: hidden;
+
+}
+#con{
+padding-top: 50vh;
+position: absolute;
+width: 30vw;
+
+z-index: 6;
+
+}
+.gif_tex{
+  vertical-align: top;
+  float: right;
+  margin-right: 50px;
+}
+
+
+#textscreen {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 6vh;
+  padding-left: 60px;
+  padding-right: 60px;
+
+}
+
+.lefttxt{
+  margin-left: 20px;
+}
+
+.righttxt{
+  margin-left: 20px
+}
+#contoller_img{
+  width: 25vw;
+  height: 25vh;
+}
+#box1{
+
+
+}
+.gif1{
+  display: inline;
+}
+.MainBox2{
+
+  text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  color: #e7ba00;
+}
+#body2{
+  line-height: 30px;
+  font-family: bit;
+  background-color: black;
+  font-family: gaming_font;
+}
+.bit_txt{
+    font-family:gaming_font;
+
+}
+h2{
+  color: black;
+  background-color: white;
+  font-size: 40px;
+  line-height: 80px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Game_Dev_DS</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="body1">
+
+<div class="Main_box"> <!--MAINBOX-->
+
+  <div class="crt_pic">
+    <img src="crt2.png" alt="" id="crt_pic">
+
+
+      <button onclick = "tv_on()" class="btn"></button>
+
+    <div class = "controller-container">
+
+      <img id="contoller_img" src="controller1.png">
+
+      <a href="MMX.html">
+      <button id = "controller-btn"> </button>
+    </a>
+    </div>
+
+  </div>
+
+  <div id="bg_start">
+    <p>shh</p>
+
+    <div class="game_box">
+      <p id = "textscreen">MegaManX is one of the best games ever created for mutiple reasons, the one the website focuses on is how the game teaches you how to play it. It wastes no time with unnecessary text and allows the player to figure everything they need to on their own.</p>
+    </div>
+
+  </div>
+
+
+  <!-- background: rgb(129,132,133);
+  background: linear-gradient(0deg, rgba(129,132,133,1) 0%, rgba(255,255,255,1) 50%, rgba(129,132,133,1) 100%); -->
+
+</div><!--MAINBOX END-->
+<script type="text/javascript">
+function tv_on(){
+
+  document.getElementById('bg_start').style.background= "linear-gradient(0deg, rgba(129,132,133,1) 0%, rgba(255,255,255,1) 50%, rgba(129,132,133,1) 100%)";
+  document.getElementById('controller-btn').style.visibility = "visible";
+  document.getElementsByClassName("btn").style.visibility="hidden";
+
+}
+
+</script>
+
+
+  </body>
+</html>
+
+
+<!--
+<p><a href="MMX.html"> Mega Man X </a> </p>
+<p><a href="OL.html"> Outlast </a> </p>
+<p><a href="LOL"> League of Legends </a> </p>
+
+function tv_on(){
+  var div_color= getElementById("bg_start")
+  var bg_color_on = ["black"]
+  div_color.style.color=bg_color_on;
+}
+
+
+-->
